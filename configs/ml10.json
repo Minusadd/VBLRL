@@ -1,0 +1,39 @@
+{
+    "env_name": "ML10",
+    "n_train_tasks": 30,
+    "n_eval_tasks": 5,
+    "env_params": {
+        "n_tasks": 35
+    },
+    "env_params2": {
+        "env_type": "test",
+        "n_tasks": 5
+    }
+    ,
+    "deterministic": true,
+    "algo_params": {
+        "num_iterations": 150,
+        "meta_batch": 8,
+        "num_initial_steps": 1000,
+        "num_steps_prior": 200,
+        "num_steps_posterior": 0,
+        "num_extra_rl_steps_posterior": 300,
+        "num_train_steps_per_itr": 1000,
+        "num_evals": 1,
+        "num_steps_per_eval": 600,
+        "num_exp_traj_eval": 2,
+        "embedding_batch_size": 100,
+        "embedding_mini_batch_size": 100,
+        "use_information_bottleneck": false,
+        "max_path_length": 500,
+        "plan_hor": 1,
+        "npart": 1,
+        "popsize": 500,
+        "num_updates_global": 2000,
+        "num_updates_task": 2000,
+        "global_update_interval": 500,
+        "video_start_episode": 5000,
+        "seed": 32
+    }
+}
+
