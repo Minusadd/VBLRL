@@ -10,7 +10,7 @@
         "n_tasks": 5
     }
     ,
-    "deterministic": true,
+    "deterministic": false,
     "algo_params": {
         "num_iterations": 150,
         "meta_batch": 8,

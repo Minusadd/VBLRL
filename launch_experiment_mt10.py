@@ -60,7 +60,7 @@ def experiment(variant):
     #TODO 0002 Net_size and hyperparameters options
 
 
-    dyna = BNNdynamics(obs_dim, action_dim, device = ptu.device,learning_rate=0.001,weight_out=1)
+    dyna = BNNdynamics(obs_dim, action_dim, device = ptu.device,learning_rate=0.001,weight_out=0.1)
     qf1_set = []
     qf2_set = []
     vf_set = []
